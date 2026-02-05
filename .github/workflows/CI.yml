@@ -13,9 +13,9 @@ concurrency:
   cancel-in-progress: ${{ startsWith(github.ref, 'refs/pull/') }}
 jobs:
   test:
-    name: Julia ${{ matrix.version }} - ${{ matrix.os }} - ${{ matrix.arch }}
-    runs-on: ${{ matrix.os }}
-    timeout-minutes: 60
+    name: Julia ${{ matrix.version }} - ${{ matrix.- os }} - ${{ matrix.arch }}
+    runs-on: ${{ matrix.- os  }}
+    timeout-minutes:  60
     permissions: # needed to allow julia-actions/cache to proactively delete old caches that it has created
       actions: write
       contents: read
@@ -26,12 +26,16 @@ jobs:
           - '1.10'
           - '1.12'
           - 'pre'
-        os:
-          - ubuntu-latest
-          - windows-latest
-          - macos-latest
-        arch:
-          - x64
+        include:
+          # x64 for Ubuntu (default architecture)
+          - os: ubuntu-latest
+            arch: x64
+          # x64 for Windows (default architecture)
+          - os: windows-latest
+            arch: x64
+          # ARM64 for macOS (Apple Silicon runners are the default for macos-14)
+          - os: macos-latest
+            arch: ARM64
     steps:
       - uses: actions/checkout@v6
       - uses: julia-actions/setup-julia@v2
