@@ -19,6 +19,6 @@ Pkg.add("https://github.com/sarabiacristian/SCF.jl")
 
 ## Features
 
-At the moment SCF.jl currently under active development but will support: 
+At the moment SCF.jl is under active development but will support: 
 
 - **Restricted Hartree-Fock:** `RHF` - Restricted Hartree-Fock implemented using the conventional SCF algorithm
