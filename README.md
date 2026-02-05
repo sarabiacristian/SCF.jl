@@ -4,7 +4,7 @@
 [![Build Status](https://app.travis-ci.com/sarabiacristian/SCF.jl.svg?branch=main)](https://app.travis-ci.com/sarabiacristian/SCF.jl)
 [![Build Status](https://ci.appveyor.com/api/projects/status/github/sarabiacristian/SCF.jl?svg=true)](https://ci.appveyor.com/project/sarabiacristian/SCF-jl)
 [![Coverage](https://codecov.io/gh/sarabiacristian/SCF.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/sarabiacristian/SCF.jl)
-[![Coverage](https://coveralls.io/repos/github/sarabiacristian/SCF.jl/badge.svg?branch=main)](https://coveralls.io/github/sarabiacristian/SCF.jl?branch=main)
+<!-- [![Coverage](https://coveralls.io/repos/github/sarabiacristian/SCF.jl/badge.svg?branch=main)](https://coveralls.io/github/sarabiacristian/SCF.jl?branch=main) -->
 
 SCF.jl is a high-performance quantum chemistry code for Julia that provides SCF methods such as Hartree-Fock for computing energies of molecules.
 
