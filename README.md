@@ -14,11 +14,11 @@ To install SCF.jl, use the Julia package manager:
 
 ```julia
 using Pkg
-Pkg.add("SCF")
+Pkg.add("https://github.com/sarabiacristian/SCF.jl")
 ```
 
 ## Features
 
-At the moment SCF.jl currently supports: 
+At the moment SCF.jl currently under active development but will support: 
 
-- **Restricted Hartree-Fock:** `RHF` - Restricted Hartree-Fock is implemented using the conventional SCF algorithm
+- **Restricted Hartree-Fock:** `RHF` - Restricted Hartree-Fock implemented using the conventional SCF algorithm
