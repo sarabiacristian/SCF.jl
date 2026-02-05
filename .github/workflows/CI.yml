@@ -33,6 +33,8 @@ jobs:
           - windows-latest
             # ARM64 for macOS (Apple Silicon runners are the default for macos-14)
           - macos-latest
+        arch: 
+          - 'default'
     steps:
       - uses: actions/checkout@v6
       - uses: julia-actions/setup-julia@v2
