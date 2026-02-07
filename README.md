@@ -1,5 +1,8 @@
 # SCF.jl 
 
+
+[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sarabiacristian.github.io/SCF.jl/stable)
+[![](https://img.shields.io/badge/docs-dev-blue.svg)](https://sarabiacristian.github.io/SCF.jl/dev)
 [![Build Status](https://github.com/sarabiacristian/SCF.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/sarabiacristian/SCF.jl/actions/workflows/CI.yml?query=branch%3Amain)
 [![Build Status](https://app.travis-ci.com/sarabiacristian/SCF.jl.svg?branch=main)](https://app.travis-ci.com/sarabiacristian/SCF.jl)
 [![Build Status](https://ci.appveyor.com/api/projects/status/github/sarabiacristian/SCF.jl?svg=true)](https://ci.appveyor.com/project/sarabiacristian/SCF-jl)
